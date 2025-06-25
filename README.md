@@ -14,36 +14,45 @@ This project is a lightweight web application built using Streamlit that uses a 
 ✅ Easy to deploy locally or on Streamlit Cloud
 
 🧰 Tech Stack
-Python 🐍
 
-Streamlit
+  ->Python 🐍
 
-tensorflow
+  ->Streamlit
 
-Pickle (for model serialization)
+  ->tensorflow
+
+  ->Pickle (for model serialization)
 
 📁 Project Structure
-URL-Detection-ML/
-│
+Phishing-URL-Detection/
+
 ├── app.py                 # Streamlit UI code
+
 ├── model.pkl              # Pickled trained model
+
 ├── requirements.txt       # Dependencies
+
 ├── README.md              # You're reading this!
 
 🚀 How to Run Locally
-Clone the repository: git clone https://github.com/14shreyas04/Phishing-URL-Detection.git
-                      cd url-detection-ml
+Clone the repository: 
+
+git clone https://github.com/14shreyas04/Phishing-URL-Detection.git
+
+cd Phishing-URL-Detection
 
 Install dependencies: pip install -r requirements.txt
 
 Run the app: streamlit run app.py
 
 🌐 Deployment (Optional)
+
 You can deploy this app easily using Streamlit Cloud.
 
 Just upload this repo to GitHub and connect it on Streamlit Cloud!
 
 🧠 Model Info 
+
 Trained using: Artificial Neural Network
 
 Features used: [http/https, ipaddress, subdomain, url_length etc....]
