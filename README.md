@@ -24,7 +24,7 @@ URL-Detection-ML/
 
 🚀 How to Run Locally
 Clone the repository:
-git clone https://github.com/yourusername/url-detection-ml.git
+git clone https://github.com/14shreyas04/Phishing-URL-Detection.git
 cd url-detection-ml
 
 Install dependencies:
