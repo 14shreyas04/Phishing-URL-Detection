@@ -24,7 +24,7 @@ with st.sidebar:
 
 st.markdown("<h1 style='text-align: center; color: teal;'>🔍 Phishing URL Detection</h1>", unsafe_allow_html=True)
 
-url = st.text_input("🌐 Enter a URL (e.g., https://example.com):")
+url = st.text_input("🌐 Enter a URL (e.g., https://example.com): 🚨⚠️ Please copy paste the url, don't click it while copying")
 
 def extract_features(url):
     o = urlparse(url)
@@ -85,4 +85,3 @@ if st.button("🚀 Analyze URL"):
             st.error("🚨 This URL is classified as **Phishing**!")
         else:
             st.success("✅ This URL is classified as **Safe**.")
-
