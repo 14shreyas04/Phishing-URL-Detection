@@ -2,8 +2,5 @@ streamlit
 numpy
 pandas
 tldextract
-tensorflow
-scikit-learn
-re
-urllib.parse
-pickle
+tensorflow==2.13.0
+keras==2.13.1
