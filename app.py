@@ -6,8 +6,8 @@ from urllib.parse import urlparse
 import pandas as pd
 import pickle
 
-with open("model.pkl",'rb') as f:
-    model = pickle.load(f)
+from tensorflow.keras.models import load_model
+model = load_model("model.h5")
 
 st.set_page_config(page_title="Phishing URL Detector", page_icon="🛡️", layout="centered")
 
