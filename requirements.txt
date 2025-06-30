@@ -2,5 +2,6 @@ streamlit
 numpy
 pandas
 tldextract
+tensorflow
 keras
 scikit-learn
