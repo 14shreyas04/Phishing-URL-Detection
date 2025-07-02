@@ -38,14 +38,12 @@ The deployment will be finalized once this version mismatch is resolved.
 
   ->tensorflow
 
-  ->Pickle (for model serialization)
-
 📁 Project Structure
 Phishing-URL-Detection/
 
 ├── app.py                 # Streamlit UI code
 
-├── model.pkl              # Pickled trained model
+├── model.keras            # keras[ANN] trained model
 
 ├── requirements.txt       # Dependencies
 
