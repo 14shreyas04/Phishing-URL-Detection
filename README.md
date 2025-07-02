@@ -2,6 +2,23 @@
 
 This project is a lightweight web application built using Streamlit that uses a trained machine learning model to classify whether a given URL is malicious or safe.
 
+## 🚀 Deployment (Planned)
+
+## ⚠️ Deployment Status: Delayed
+
+Although the project is fully functional in a local environment, deployment to Streamlit Cloud is currently on hold due to compatibility issues between:
+
+- The TensorFlow/Keras versions used to train and save the model locally, and
+- The Python and TensorFlow versions supported by Streamlit Cloud.
+
+Specifically, the `.h5` or `.keras` model format saved using newer TensorFlow/Keras versions throws deserialization errors when loaded in the Streamlit deployment environment.
+
+To resolve this, the model will either be:
+- Re-saved using an older TensorFlow version to match Streamlit Cloud, or
+- The hosted environment will be configured to support newer versions (when available).
+
+The deployment will be finalized once this version mismatch is resolved.
+
 📌 Features
 ✅ User-friendly web interface built with Streamlit
 
