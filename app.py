@@ -7,9 +7,7 @@ import pandas as pd
 import pickle
 
 from tensorflow.keras.models import load_model
-from tensorflow.keras.activations import swish
-
-model = load_model("model.h5", custom_objects={"swish": swish})
+model = load_model("model.keras")
 
 st.set_page_config(page_title="Phishing URL Detector", page_icon="🛡️", layout="centered")
 
