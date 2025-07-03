@@ -1,6 +1,6 @@
-🧠 URL Detection Using Machine Learning
+🧠 Phishing URL Detection Using Deep Learning
 
-This project is a lightweight web application built using Streamlit that uses a trained machine learning model to classify whether a given URL is malicious or safe.
+This project is a lightweight web application built using Streamlit that uses a trained deep learning model to classify whether a given URL is malicious or safe.
 
 ## 🚀 Deployment (Planned)
 
