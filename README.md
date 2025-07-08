@@ -26,7 +26,7 @@ The deployment will be finalized once this version mismatch is resolved.
 
 ✅ Classifies the URL as malicious or benign
 
-✅ Model saved using Pickle
+✅ Model saved using keras
 
 ✅ Easy to deploy locally or on Streamlit Cloud
 
